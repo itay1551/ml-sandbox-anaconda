@@ -1,0 +1,20 @@
+name: ml-sandbox
+channels:
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - keras
+  - matplotlib
+  - pandas
+  - python
+  - pip
+  - scikit-learn
+  - scipy
+  - tensorboard
+  - opencv
+  - pip:
+      - numpy
+      - opencv-contrib-python
