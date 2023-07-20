@@ -1,0 +1,15 @@
+name: scraping-sandbox
+channels:
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - python
+  - pip
+  - scipy
+  - pip:
+      - numpy

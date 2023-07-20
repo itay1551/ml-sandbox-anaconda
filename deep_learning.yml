@@ -1,0 +1,21 @@
+name: deep_learning
+channels:
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - keras
+  - matplotlib
+  - pandas
+  - python
+  - pip
+  - scikit-learn
+  - scipy
+  - tensorboard
+  - tensorflow
+  - gym
+  
+  - pip:
+      - numpy
